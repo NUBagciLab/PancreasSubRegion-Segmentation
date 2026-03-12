@@ -1,6 +1,6 @@
 ## PancreasSubRegion-Segmentation
 
-> Clean nnU-Net v2-based pancreas subregion segmentation with a custom trainer and single-file inference.
+> Pancreas subregion segmentation(head, tail and body). One model fits three modalities (T1W, T2W, and CT).
 
 <p align="center">
   <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="80%" />
