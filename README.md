@@ -1,6 +1,7 @@
 ## PancreasSubRegion-Segmentation
 
-> Pancreas subregion segmentation(head, tail and body). One model fits three modalities (T1W, T2W, and CT).
+> Pancreas subregion segmentation(head, tail and body). 
+> Why not solve this problem with one model? Please try three modalities --> T1W, T2W, and CT 😊.
 
 <p align="center">
   <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="100%" />
