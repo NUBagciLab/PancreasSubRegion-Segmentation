@@ -1,7 +1,6 @@
 ## PancreasSubRegion-Segmentation
 
 > Pancreas subregion segmentation(head, tail and body). 
-> Why not solve this problem with one model? Please try three modalities --> T1W, T2W, and CT 😊.
 
 <p align="center">
   <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="100%" />
@@ -11,7 +10,7 @@
 ---
 
 ### Pretrained weights
-
+> Why not solve this problem with one model? Try this on three modalities --> T1W, T2W, and CT.
 Pretrained weights (`checkpoint_best.pth`) for this project are available on Google Drive:
 
 - [`PancreasPartsSegmentation` weights folder](https://drive.google.com/drive/folders/1-zfIPTpWc44a1RzEla7pSO52B3pvPJbg?usp=sharing)
