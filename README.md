@@ -3,13 +3,9 @@
 > Pancreas subregion segmentation(head, tail and body). One model fits three modalities (T1W, T2W, and CT).
 
 <p align="center">
-  <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="80%" />
+  <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="100%" />
 </p>
 
-<p align="center">
-  <img src="figs/segmentation.png" alt="Example axial slice with prediction overlay" width="80%" />
-
-</p>
 
 ---
 
@@ -135,6 +131,10 @@ engine.predict_single_file(
 )
 ```
 
+<p align="center">
+  <img src="figs/segmentation.png" alt="Example axial slice with prediction overlay" width="100%" />
+
+</p>
 ---
 
 ### Contact
