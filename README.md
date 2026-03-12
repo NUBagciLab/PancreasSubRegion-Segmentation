@@ -3,13 +3,12 @@
 > Clean nnU-Net v2-based pancreas subregion segmentation with a custom trainer and single-file inference.
 
 <p align="center">
-  <img src="figs/overview.png" alt="Pancreas subregion segmentation overview" width="70%" />
+  <img src="figs/workflow.png" alt="Pancreas subregion segmentation overview" width="80%" />
 </p>
 
 <p align="center">
-  <img src="figs/example_axial.png" alt="Example axial slice with prediction overlay" width="30%" />
-  <img src="figs/example_coronal.png" alt="Example coronal slice with prediction overlay" width="30%" />
-  <img src="figs/example_sagittal.png" alt="Example sagittal slice with prediction overlay" width="30%" />
+  <img src="figs/segmentation.png" alt="Example axial slice with prediction overlay" width="80%" />
+
 </p>
 
 ---
@@ -51,7 +50,7 @@ Make sure that your CUDA drivers match the versions in `environment.yml` if you 
 
 ### Model folder layout
 
-`simple_inference.py` expects a **model folder** with the standard nnU-Net v2 layout:
+`simple_inference.py` expects a **model folder**:
 
 ```text
 model_folder/
