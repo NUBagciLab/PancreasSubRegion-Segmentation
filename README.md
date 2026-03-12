@@ -11,6 +11,7 @@
 
 ### Pretrained weights
 > Why not solve this problem with one model? Try this on three modalities --> T1W, T2W, and CT.
+
 Pretrained weights (`checkpoint_best.pth`) for this project are available on Google Drive:
 
 - [`PancreasPartsSegmentation` weights folder](https://drive.google.com/drive/folders/1-zfIPTpWc44a1RzEla7pSO52B3pvPJbg?usp=sharing)
@@ -23,7 +24,7 @@ Download `checkpoint_best.pth` from this folder and place it into your chosen `m
 1. **Clone** this repository:
 
 ```bash
-git clone <your-pancreas-subregion-repo-url>
+git clone https://github.com/NUBagciLab/PancreasSubRegion-Segmentation.git
 cd PancreasSubRegion-Segmentation
 ```
 
